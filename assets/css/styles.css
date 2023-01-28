@@ -246,7 +246,7 @@ ul {
 /* About section start*/
 .about {
   position: relative;
-  background: url("../images/IMG_9779_1.JPG") no-repeat top center/cover;
+  background: url("../images/IMG_9779_1.png") no-repeat top center/cover;
   height: 600px;
   display: flex;
   align-items: center;

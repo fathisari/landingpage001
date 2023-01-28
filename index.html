@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- 3rd Party -->
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Fathi Sari</span><span class="tv">&nbsp; SKom. MM. </span
+          ><span class="fist">&#9829;</span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">Goals</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Galeri</a>
+        </li>
+        <li class="nav-item">
+          <a href="#keahlian" class="nav-link" id="nav-link">Keahlian</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Daftar</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> Be the best of</span> <br />
+          <span class="connecting">You</span>
+        </h1>
+        <p>
+          Iam on a mission to help students learn to love, appriciate and understand Programming, English and Culture
+        </p>
+        <a class="btn red" href="learnmore.html">Learn More</a>
+        <a class="btn blue" href="#sub">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m0Mrt3HV1Hs?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>My Students</h3>
+      <p>
+        Our primary objective is to bring you all around the world
+      </p>
+
+      <h3>Its not About the Fights Alone!</h3>
+      <p>
+      </p>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/1IMG.JPG" class="big">
+          <img
+            src="assets/images/1IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+
+        <a href="assets/images/2IMG.JPG" class="big">
+          <img
+            src="assets/images/2IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+
+        <a href="assets/images/3IMG.JPG" class="big">
+          <img
+            src="assets/images/3IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+
+        <a href="assets/images/4IMG.JPG" class="big">
+          <img
+            src="assets/images/4IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+
+        <a href="assets/images/5IMG.JPG" class="big"
+          ><img
+            src="assets/images/5IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+
+        <a href="assets/images/6IMG.JPG" class="big">
+          <img
+            src="assets/images/6IMG.JPG"
+            alt=""
+            title=""
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Jab TV keahlian -->
+    <section class="people" id="keahlian">
+      <div class="keahlian">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/coding.png" width="270px" height="180px" alt="Pemrograman Dasar" />
+            <p class="name">HTML + JS + CSS</p>
+            <p class="role">Pemrograman Dasar</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/english.png"  width="270px" height="180px" alt="Bahasa Inggris" />
+            <p class="name">Bahasa Inggris</p>
+            <p class="role">Vocational</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/culture.png" width="270px" height="180px" alt="Seni Budaya" />
+            <p class="name">Seni Budaya</p>
+            <p class="role">Nusantara</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="https://www.facebook.com/fathi.sari.5201" target="_blank"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2020. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
